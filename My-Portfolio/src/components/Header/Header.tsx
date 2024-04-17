@@ -1,7 +1,9 @@
 
 function Header()
 {
-    return <h1 className="text-primary font-monospace">My Portfolio</h1>;
+    return(
+    <p className="text-center text-dark h2">Hi, My name is <span className="h1 fw-bold">Christian Carlo Alcazar</span></p>
+    );
 }
 
 export default Header;
