@@ -1,0 +1,17 @@
+#intro {
+    animation: FadeIn 5s;
+}
+#sub-intro{
+    animation: FadeIn 5s;
+}
+#name{
+    animation: FadeIn 5s;
+}
+#position{
+    animation: FadeIn 5s;
+}
+
+@keyframes FadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}

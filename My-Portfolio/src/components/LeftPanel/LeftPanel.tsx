@@ -2,8 +2,8 @@
 function LeftPanel()
 {
     return (
-    <div className="vh-100">
-        <h1>Left Side</h1>
+    <div className="vh-100 d-flex align-item-center">
+        <h1 className="">Left Side</h1>
     </div>
     );
 }

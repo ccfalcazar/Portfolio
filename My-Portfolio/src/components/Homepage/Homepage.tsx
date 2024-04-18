@@ -1,21 +1,19 @@
-import LeftPanel from '../LeftPanel/LeftPanel';
-import RightPanel from '../RightPanel/RightPanel';
+import Introduction from '../Introduction/Introduction';
+import './Homepage.css'
 
 function Homepage()
 {
     return (
-        <div id="Homepage" className="vh-100">  
-            <div className="d-flex justify-content-center align-items-center vh-100">
-                <div className='row p-0 m-0'>
-                    <div className='col-md-6 p-0 m-0'>
-                    <LeftPanel/>
+            <div id="Homepage" className='p-0 m-0 vh-100 d-flex'>
+                <div className='p-0 m-0 w-50 p-5 m-auto border border-5 border-success rounded-5'>
+                    <div className='w-50 border-end border-5 border-success'>
+                    <Introduction/>
                     </div>
-                    <div className='col-md-6 p-0 m-0'>
-                    <RightPanel/>
+                    <div>
+
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 
