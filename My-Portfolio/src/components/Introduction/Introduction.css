@@ -1,11 +1,14 @@
 #intro {
     animation: FadeIn 5s;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #sub-intro{
     animation: FadeIn 5s;
 }
 #name{
     animation: FadeIn 5s;
+    font-size: 7vh;
 }
 #position{
     animation: FadeIn 5s;
