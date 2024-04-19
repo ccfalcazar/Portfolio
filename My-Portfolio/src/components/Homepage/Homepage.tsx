@@ -5,12 +5,12 @@ function Homepage()
 {
     return (
             <div id="Homepage" className='p-0 m-0 vh-100 d-flex'>
-                <div className='p-0 m-0 w-50 p-5 m-auto border border-5 border-success rounded-5'>
-                    <div className='w-50 border-end border-5 border-success'>
+                <div id="card-container" className='d-flex p-0 m-0 w-50 m-auto border border-5 border-white rounded-5 shadow'>
+                    <div className='w-50 p-5 mt-3 mb-3 border-end border-3 border-white'>
                     <Introduction/>
                     </div>
-                    <div>
-
+                    <div className='w-50'>
+                        <h1>Sample</h1>
                     </div>
                 </div>
             </div>

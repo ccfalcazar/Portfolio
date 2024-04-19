@@ -1,17 +1,21 @@
-#intro {
+p{
     animation: FadeIn 5s;
-    font-size: 5vh;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 1 !important;
+}
+
+#intro {    
+    font-size: 2.5vw;
 }
 #sub-intro{
-    animation: FadeIn 5s;
+    font-size: 1.5vw;
 }
 #name{
-    animation: FadeIn 5s;
-    font-size: 7vh;
+    font-size: 3.2vw;
+    line-height: 100%;
 }
 #position{
-    animation: FadeIn 5s;
+    font-size: 1.6vw;
+    line-height: 100%;
 }
 
 @keyframes FadeIn {
