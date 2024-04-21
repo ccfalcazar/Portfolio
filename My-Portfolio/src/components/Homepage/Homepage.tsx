@@ -10,7 +10,7 @@ function Homepage()
                     <Introduction/>
                     </div>
                     <div className='w-50'>
-                        <h1>Sample</h1>
+                        <h1>Projects</h1>
                     </div>
                 </div>
             </div>
