@@ -1,21 +1,6 @@
-p{
+#intro, #name, #position,#sub-intro{
     animation: FadeIn 5s;
     margin: 1 !important;
-}
-
-#intro {    
-    font-size: 2.5vw;
-}
-#sub-intro{
-    font-size: 1.5vw;
-}
-#name{
-    font-size: 3.2vw;
-    line-height: 100%;
-}
-#position{
-    font-size: 1.6vw;
-    line-height: 100%;
 }
 
 @keyframes FadeIn {

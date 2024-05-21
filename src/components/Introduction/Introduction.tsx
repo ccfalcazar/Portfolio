@@ -4,10 +4,10 @@ function Introduction()
 {
     return (
         <>
-        <p id="intro" className="display-3 text-justify text-dark">Hi! I'm</p>
-        <p id="name"className="display-1 fw-bold">Christian Alcazar</p>
-        <p id="position" className="text-primary fst-italic fw-bold display-5">Web and Application Developer</p> 
-        <p id="sub-intro" className="display-6 text-justify text-black-50 lead">experienced in both manual and automated testing.</p>
+        <h3 id="intro" className="text-justify text-dark">Hi! I'm</h3>
+        <h1 id="name"className="fw-bold">Christian Alcazar</h1>
+        <h2 id="position" className="text-primary fst-italic fw-bold">Web and Application Developer</h2> 
+        <h3 id="sub-intro" className="text-justify text-black lead">experienced in both manual and automated testing.</h3>
         </>
     );
 }

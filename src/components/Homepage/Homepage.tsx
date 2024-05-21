@@ -1,15 +1,18 @@
+import AboutMe from '../AboutMe/AboutMe';
 import Introduction from '../Introduction/Introduction';
 import './Homepage.css'
 
 function Homepage()
 {
     return (
-            <div id="Homepage" className='p-0 m-0 vh-100 d-flex'>
-                <div className='p-0 m-0 w-75 m-auto border border-5 border-white rounded-5 shadow'>
-                    <div className='p-5'>
+            <div id="Homepage" className='p-0 m-0'>
+                <div id='FixedSide' className='d-none d-lg-block m-auto'>
                     <Introduction/>
+                </div>
+                <div className='row'>
+                    <div className='col-md-6 pt-5 px-4 ms-lg-auto me-3'>
+                        <AboutMe/>
                     </div>
-
                 </div>
             </div>
     );
