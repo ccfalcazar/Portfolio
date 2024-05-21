@@ -5,13 +5,11 @@ function Homepage()
 {
     return (
             <div id="Homepage" className='p-0 m-0 vh-100 d-flex'>
-                <div className='d-none d-md-block p-0 m-0 w-50 m-auto border border-5 border-white rounded-5 shadow'>
-                    <div className='w-50 p-5 mt-3 mb-3 border-end border-3 border-white'>
+                <div className='p-0 m-0 w-75 m-auto border border-5 border-white rounded-5 shadow'>
+                    <div className='p-5'>
                     <Introduction/>
                     </div>
-                    <div className='w-50'>
-                        
-                    </div>
+
                 </div>
             </div>
     );
