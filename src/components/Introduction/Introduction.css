@@ -3,6 +3,11 @@
     margin: 1 !important;
 }
 
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
 @keyframes FadeIn {
     0%{opacity: 0;}
     100%{opacity: 1;}
