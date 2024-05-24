@@ -1,11 +1,7 @@
 import './Introduction.css';
-import {useNavigate} from 'react-router-dom';
 
 function Introduction()
 {
-    let navigate = useNavigate();
-
-
     return (
         <>
         <div className='m-auto w-50'>
@@ -16,7 +12,7 @@ function Introduction()
                     <h4 id="sub-intro" className="text-justify text-black font-monospace text-black-50">experienced in both manual and automated testing.</h4>
                 </div>
                 <div className='mt-3'>
-                    <span className='btn btn-primary rounded'>About</span>
+                        <a href='#AboutMe'><button className='btn btn-outline-primary rounded'>About</button></a>
                 </div>
              </div>
         </div>
