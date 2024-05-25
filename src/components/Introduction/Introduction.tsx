@@ -22,9 +22,9 @@ function Introduction()
                         Adding what I've learned as an Associate Quality Assurance Engineer, I can create a more modular, flexible, sustainable and maintainable programs for fast and easy testing.
                     </p>
                 <div className='mt-3 m-0'>
-                        <span className='btn btn-outline-primary rounded me-1' onClick={()=>handlesClick('AboutMe')}>About</span>
-                        <span className='btn btn-outline-primary rounded mx-1'>Experiences</span>
-                        <span className='btn btn-outline-primary rounded mx-1'>Projects</span>
+                        <span className='btn btn-sm btn-outline-primary rounded me-1' onClick={()=>handlesClick('AboutMe')}>About</span>
+                        <span className='btn btn-sm btn-outline-primary rounded mx-1'>Experiences</span>
+                        <span className='btn btn-sm btn-outline-primary rounded mx-1'>Projects</span>
                 </div>
              </div>
         </div>
