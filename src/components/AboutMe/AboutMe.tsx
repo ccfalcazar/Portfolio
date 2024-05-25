@@ -4,9 +4,9 @@ function AboutMe()
 {
     return (
     <>
-        <div className='d-flex'>
-            <div className='m-auto w-75'>
-
+        <div className='header bg-primary'>
+            <div className='w-75 ms-auto'>
+                <p className='display-5 text-white text-uppercase'>About Me</p>
             </div>
         </div>
     </>

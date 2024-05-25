@@ -2,6 +2,12 @@ import './Introduction.css';
 
 function Introduction()
 {
+    function handlesClick(SectionId : string)
+    {
+        const AboutSection = document.getElementById(SectionId);
+        AboutSection?.scrollIntoView({behavior: 'smooth'});
+    }
+
     return (
         <>
         <div className='m-auto w-75'>
@@ -11,10 +17,10 @@ function Introduction()
                     <h3 id="position" className="text-primary fw-bold">WEB AND APPLICATION DEVELOPER</h3> 
                     <h3 id="sub-intro" className="text-justify text-black font-monospace fst-italic text-black-50">experienced in both manual and automated testing.</h3>
                 </div>
-                <div className='mt-3'>
-                        <a href='#AboutMe' className='mx-1'><button className='btn btn-outline-primary rounded'>About</button></a>
-                        <a href='#AboutMe' className='mx-1'><button className='btn btn-outline-primary rounded'>Experiences</button></a>
-                        <a href='#AboutMe' className='mx-1'><button className='btn btn-outline-primary rounded'>Projects</button></a>
+                <div className='mt-3 m-0'>
+                        <span className='btn btn-outline-primary rounded me-1' onClick={()=>handlesClick('AboutMe')}>About</span>
+                        <span className='btn btn-outline-primary rounded mx-1'>Experiences</span>
+                        <span className='btn btn-outline-primary rounded mx-1'>Projects</span>
                 </div>
              </div>
         </div>

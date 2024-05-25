@@ -10,9 +10,7 @@ function Homepage()
                         <Introduction/>
                 </section>
                 <section id="AboutMe">
-                    <div className='m-auto'>
                         <AboutMe/>
-                    </div>
                 </section>
             </div>
     );
