@@ -15,7 +15,7 @@ function Introduction()
                 <div className='col'>
                     <h1 id="name"className="fw-bold display-1 text-dark">Christian Alcazar</h1>
                     <h3 id="position" className="text-primary fw-bold">WEB AND APPLICATION DEVELOPER</h3> 
-                    <p id="sub-intro" className="fs-6 text-justify text-black font-monospace fst-italic text-black-50 w-75">
+                    <p id="sub-intro" className="fs-6 text-justify text-black font-monospace fst-italic text-black-50">
                         I am a versatile Computer Engineer with knowledge in 
                         <a className='link-dark link-opacity-75 link-underline link-underline-opacity-0' href='https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/sockets-overview'> Socket Programming</a>,
                         <a className='link-dark link-opacity-75 link-underline link-underline-opacity-0' href='https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/'> Asynchronous Programming</a> and 
