@@ -4,15 +4,17 @@ function Introduction()
 {
     return (
         <>
-        <div className='m-auto w-50'>
+        <div className='m-auto w-75'>
             <div className='row'>
                 <div className='col-md-8'>
-                    <h1 id="name"className="fw-bold display-2 lead text-dark">Christian Alcazar</h1>
-                    <h2 id="position" className="text-primary display-6 fst-italic fw-bold">Web and Application Developer</h2> 
-                    <h4 id="sub-intro" className="text-justify text-black font-monospace text-black-50">experienced in both manual and automated testing.</h4>
+                    <h1 id="name"className="fw-bold display-1 text-dark">Christian Alcazar</h1>
+                    <h3 id="position" className="text-primary fw-bold">WEB AND APPLICATION DEVELOPER</h3> 
+                    <h3 id="sub-intro" className="text-justify text-black font-monospace fst-italic text-black-50">experienced in both manual and automated testing.</h3>
                 </div>
                 <div className='mt-3'>
-                        <a href='#AboutMe'><button className='btn btn-outline-primary rounded'>About</button></a>
+                        <a href='#AboutMe' className='mx-1'><button className='btn btn-outline-primary rounded'>About</button></a>
+                        <a href='#AboutMe' className='mx-1'><button className='btn btn-outline-primary rounded'>Experiences</button></a>
+                        <a href='#AboutMe' className='mx-1'><button className='btn btn-outline-primary rounded'>Projects</button></a>
                 </div>
              </div>
         </div>
