@@ -1,7 +1,26 @@
-#name, #position,#sub-intro{
+#name, #position, #sub-intro, #shortcut{
     animation: FadeIn 5s;
     margin: 1 !important;
 }
+#position{
+    animation: FadeIn 5s forwards;
+    margin: 1 !important;
+    animation-delay: 2s;
+    opacity: 0;
+}
+#sub-intro{
+    animation: FadeIn 4s forwards;
+    margin: 1 !important;
+    animation-delay: 3s;
+    opacity: 0;
+}
+#shortcut{
+    animation: FadeIn 4s forwards;
+    margin: 1 !important;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
 
 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
