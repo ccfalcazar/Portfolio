@@ -23,7 +23,7 @@ function Introduction()
                 </p>
             </div>
             <div id='shortcut' className='mt-3 m-0'>
-                <span className='btn btn-sm btn-outline-primary rounded me-1' onClick={()=>handlesClick('MyProjects')}>My Projects</span>
+                <span className='btn btn-sm btn-outline-primary rounded me-1' onClick={()=>handlesClick('MyProject')}>My Projects</span>
             </div>
         </div>
         </>
