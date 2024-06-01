@@ -1,5 +1,5 @@
-import AboutMe from '../AboutMe/AboutMe';
 import Introduction from '../Introduction/Introduction';
+import Projects from '../Projects/Project';
 import './Homepage.css'
 
 function Homepage()
@@ -9,8 +9,8 @@ function Homepage()
                 <section id='Introduction'>
                         <Introduction/>
                 </section>
-                <section id="AboutMe">
-                        <AboutMe/>
+                <section id="MyProject">
+                        <Projects/>
                 </section>
             </div>
     );
