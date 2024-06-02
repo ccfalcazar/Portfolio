@@ -1,10 +1,12 @@
 import './Project.css';
-import CostingFormImage from '../../assets/Images/CostingForm.png'
+import CostingFormImage from '../../assets/Images/CostingForm.png';
+import UnitTestingImage from '../../assets/Images/CSharpUnitTesting.png';
+import ApplicationImage from '../../assets/Images/ApplicationGUI.png';
 
 function Projects()
 {
     return(
-        <>
+        <div className='projects'>
         <h1 className="my-3 text-center">My Projects</h1>
         <div className="container">
             <div className="row border border-2 border-dark border-start-0 border-end-0 py-2">
@@ -44,8 +46,45 @@ function Projects()
                     <div className='mt-3'>Source Code: <a href="https://github.com/ccfalcazar/Paperbag-Quotation">Code</a></div>
                 </div>
             </div>
+            <div className="row border border-2 border-dark border-start-0 border-end-0 py-2">
+                <div className="col-md-6">
+                    <div className="ratio ratio-16x9">
+                        <img className='img-fluid' src={UnitTestingImage}></img>
+                    </div>
+                    <div className="d-flex justify-content-center m-1">
+                        <span className="badge bg-primary mx-1">C#</span>
+                        <span className="badge bg-primary mx-1">TDD</span>
+                        <span className="badge bg-primary mx-1">CLEAN CODE</span>
+                        <span className="badge bg-primary mx-1">UNIT TEST</span>                    
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <h4>Payroll Library</h4>
+                    <p className='lead'>Created a payroll class library for philippine taxes using only test driven development and clean coding.</p>
+                    <div className='mt-3'>Source Code: <a href="https://github.com/ccfalcazar/PayrollLibrary">Code</a></div>
+                </div>
+            </div>
+            <div className="row border border-2 border-dark border-start-0 border-end-0 py-2">
+                <div className="col-md-6">
+                    <div className="ratio ratio-16x9">
+                        <img className='img-fluid' src={ApplicationImage}></img>
+                    </div>
+                    <div className="d-flex justify-content-center m-1">
+                        <span className="badge bg-primary mx-1">C#</span>
+                        <span className="badge bg-primary mx-1">Forms</span>
+                        <span className="badge bg-primary mx-1">ADO.NET</span>
+                        <span className="badge bg-primary mx-1">MYSQL</span>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <h4>Windows Application</h4>
+                    <p className='lead'>Created a mini monitoring application using C# forms for a commercial printer. MySQL is used as database</p>
+                    <div className='mt-3'>Source Code: <a href="https://github.com/ccfalcazar/WindowsApp">Code</a></div>
+                </div>
+            </div>
+
         </div>
-        </>
+        </div>
     );
 }
 
