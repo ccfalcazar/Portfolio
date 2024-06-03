@@ -10,11 +10,11 @@ function Homepage()
                 <section id='Introduction'>
                         <Introduction/>
                 </section>
-                <section id="MyProject">
-                        <Projects/>
-                </section>
                 <section id="ContactMe">
                         <ContactMe/>
+                </section>
+                <section id="MyProject">
+                        <Projects/>
                 </section>
             </div>
     );
