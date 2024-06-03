@@ -9,6 +9,7 @@
     min-height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
+    scroll-padding-bottom: 3em;
 }
 
 #ContactMe{
