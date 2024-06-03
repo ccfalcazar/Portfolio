@@ -14,8 +14,6 @@
 
 #ContactMe{
     height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
 }
 
 #name, .header{
