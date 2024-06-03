@@ -10,7 +10,7 @@ function Introduction()
 
     return (
         <>
-        <div className='m-md-auto mx-auto w-75'>
+        <div className='m-md-auto mx-auto mt-5 w-75'>
             <div className='p-0 m-0'>
                 <h1 id="name"className="fw-bold display-1 text-dark">Christian Alcazar</h1>
                 <h3 id="position" className="text-primary fw-bold">WEB AND APPLICATION DEVELOPER</h3> 
@@ -37,6 +37,7 @@ function Introduction()
             </div>
             <div id='shortcut' className='mt-3 m-0'>
                 <span className='btn btn-sm btn-outline-primary rounded me-1' onClick={()=>handlesClick('MyProject')}>My Projects</span>
+                <span className='btn btn-sm btn-outline-primary rounded me-1' onClick={()=>handlesClick('ContactMe')}>Contact Me</span>
             </div>
         </div>
         </>
