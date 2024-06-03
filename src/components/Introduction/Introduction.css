@@ -21,6 +21,10 @@
     opacity: 0;
 }
 
+i:hover{
+    font-size: 1.5em;
+}
+
 
 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
