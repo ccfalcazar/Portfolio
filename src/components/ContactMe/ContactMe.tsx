@@ -12,6 +12,7 @@ function Contact()
                     <li className="list-group-item text-primary"><i className="bi bi-envelope-at-fill"></i> ccfalcazar@gmail.com</li>
                     <li className="list-group-item text-primary"><i className="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/christian-carlo-alcazar-3606741b8/">Profile</a></li>
                     <li className="list-group-item text-primary"><i className="bi bi-facebook"></i> <a href="https://www.facebook.com/agate014">Profile</a></li>
+                    <li className="list-group-item text-primary"><i className="bi bi-file-pdf-fill"></i><a href="https://drive.google.com/file/d/1pOeRRszjPC2wlhlP1JBZpA_QpCYzlW08/view?usp=drive_link">Resume</a></li>
                 </ul>
             </div>
         </div>
