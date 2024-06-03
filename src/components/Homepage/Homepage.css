@@ -1,17 +1,17 @@
 #Introduction{
     display: flex;
     height: 100vh;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
 
 #MyProject{
     min-height: 100vh;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
 
 #ContactMe{
     height: 100vh;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
 
 #name, .header{
