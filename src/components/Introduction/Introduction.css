@@ -14,7 +14,7 @@
     animation-delay: 3s;
     opacity: 0;
 }
-#shortcut{
+#shortcut, #techstack{
     animation: FadeIn 4s forwards;
     margin: 1 !important;
     animation-delay: 4s;
