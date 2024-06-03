@@ -7,7 +7,6 @@
 #MyProject{
     min-height: 100vh;
     scroll-snap-align: start;
-    margin-bottom: 4em;
 }
 
 #ContactMe{
@@ -22,6 +21,4 @@
 #Homepage{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
-    scroll-behavior: smooth;
 }
