@@ -2,6 +2,7 @@ import './Project.css';
 import CostingFormImage from '../../assets/Images/CostingForm.png';
 import UnitTestingImage from '../../assets/Images/CSharpUnitTesting.png';
 import ApplicationImage from '../../assets/Images/ApplicationGUI.png';
+import Crud from '../../assets/Images/CRUD.png';
 
 function Projects()
 {
@@ -9,6 +10,25 @@ function Projects()
         <div className='projects'>
         <h1 className="my-3 text-center">My Projects</h1>
         <div className="container">
+            <div className="row border border-2 border-dark border-start-0 border-end-0 py-2">
+                <div className="col-md-6">
+                    <div className="ratio ratio-16x9">
+                        <img className='img-fluid' src={Crud}></img>
+                    </div>
+                    <div className="d-flex justify-content-center m-1">
+                        <span className="badge bg-primary mx-1">NextJS</span>
+                        <span className="badge bg-primary mx-1">DaisyUI</span>
+                        <span className="badge bg-primary mx-1">Firebase</span>
+                        <span className="badge bg-primary mx-1">Vercel</span>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <h4>Simple CRUD</h4>
+                    <p className='lead'>A simple CRUD setup created using NextJS with firebase realtime database as database. Deployed in Vercel.</p>
+                    <div className='mt-3'>Site: <a href="https://restaurantapp-pi-sage.vercel.app/">Site</a></div>
+                    <div className='mt-3'>Source Code: <a href="https://github.com/ccfalcazar/restaurantapp">Code</a></div>
+                </div>
+            </div>
             <div className="row border border-2 border-dark border-start-0 border-end-0 py-2">
                 <div className="col-md-6">
                     <div className="ratio ratio-16x9">
